@@ -1,0 +1,17 @@
+Speculate why these documents have high PageRank values, i.e., why is it that these particular pages are linked to by (possibly) many other pages with (possibly) high PageRank values. 
+
+The pages from our example that have the highest page ranking have in common - links to branded websites(like the economist for example) that are regularly visited, subscription and search pages. Since tese pages are more popular and visited regularly by more people they have higher page ranking.  
+Since the Page rank is computed as the summation of page ranks of the pages from which it is linked/outlinks of the pages that link to it, the page rank of a page will be higher if it is linked from documents with a higher page pank since there is a direct relation to the page rank of a page and the page rank and those of it's inlinks. 
+
+Are all of these documents ones that users would likely want to see in response to an appropriate query? 
+
+Not necessarily. Most of the documents seem to be ranked higher not because of relevant information contained in it but due to the popularity of the links/contents it contains, which users looking for a specific content may not be interested in. 
+
+Give some examples of ones that are and ones that are not. For those that are not "interesting" documents, why might they have high PageRank values? 
+
+Some examples of pages that the users may not be interested in are those with copyright and disclaimer information of websites. These pages might have higher page ranking because the copyrights of a website may be linked to by many of it's web pages which have have a higher page rank. As a page transfers part of it's page rank onto the pages they link to, the non interesting documents will also have a higher page rank due to this.
+
+How do the pages with high PageRank compare to the pages with many in-links? 
+
+We would expect pages with more inlinks to have a higher page rank - given the page rank distribution formula where the rank of a page is dependant on the summation of the rank distribution of the pages that link to it. 
+But this is no the case. We can see some pages with high inlinks ranked low and pages with low inlinks ranked high as well. This is because the rank f a page is dependant not only on the number of inlinks but also on the importance of the links pointing to it. THe pages with low inlinks and high page ranks might be linked to by a few but important pages. 

@@ -1,0 +1,27 @@
+A:\WS\PageRank\data\inLinks_Sample.txt //
+6 node Sample text
+
+Iteration : 1
+Perplexity : 6.0
+Link : D; New page rank : 0.13125; In links : B,C,; Out links :E,F,A,C,
+Link : E; New page rank : 0.21388888888888888; In links : D,F,B,C,; Out links :A,
+Link : F; New page rank : 0.14305555555555555; In links : D,A,B,; Out links :E,A,B,
+Link : A; New page rank : 0.24930555555555556; In links : D,E,F,; Out links :F,B,C,
+Link : B; New page rank : 0.11944444444444445; In links : F,A,; Out links :D,E,F,C,
+Link : C; New page rank : 0.14305555555555555; In links : D,A,B,; Out links :D,E,
+Iteration : 10
+Perplexity : 5.813941566892298
+Link : D; New page rank : 0.1189629727768988; In links : B,C,; Out links :E,F,A,C,
+Link : E; New page rank : 0.18710661014291713; In links : D,F,B,C,; Out links :A,
+Link : F; New page rank : 0.1512937659347507; In links : D,A,B,; Out links :E,A,B,
+Link : A; New page rank : 0.25203637602817186; In links : D,E,F,; Out links :F,B,C,
+Link : B; New page rank : 0.1393065091825108; In links : F,A,; Out links :D,E,F,C,
+Link : C; New page rank : 0.1512937659347507; In links : D,A,B,; Out links :D,E,
+Iteration : 100
+Perplexity : 5.8136344772065165
+Link : D; New page rank : 0.11890782257353921; In links : B,C,; Out links :E,F,A,C,
+Link : E; New page rank : 0.18704590699931614; In links : D,F,B,C,; Out links :A,
+Link : F; New page rank : 0.1513064898667053; In links : D,A,B,; Out links :E,A,B,
+Link : A; New page rank : 0.2521271053751956; In links : D,E,F,; Out links :F,B,C,
+Link : B; New page rank : 0.1393061853185386; In links : F,A,; Out links :D,E,F,C,
+Link : C; New page rank : 0.1513064898667053; In links : D,A,B,; Out links :D,E,
